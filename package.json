@@ -1,0 +1,22 @@
+{
+  "name": "superbase-setup-env-var",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bruv": "node server",
+    "dev": "node server",
+    "seed": "node seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This is a simple setup for using Superbase with environment variables.",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
